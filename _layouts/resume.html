@@ -9,25 +9,21 @@
 
       <header class="page-header">
 
-        <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
         <img src="images/avatar.jpg" alt="my photo" class="avatar" itemprop="image">
         {% endif %}
 
-        <!-- Your name is defined in the _config.yml file -->
         <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
 
         <div class="title-bar">
 
-          <!-- Your title is also defined in the _config.yml file -->
           <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
 
-          <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
           {% include icon-links.html %}
         </div>
 
         <div class="executive-summary" itemprop="description">
-          <p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>
+          <p>High-performance and self-motivated person with more than 9 years of hands on experience in architecture and development of enterprise applications, with specialization in Java/Java EE. Have an extensive background with software architecture, application frameworks, design patterns, as well as a solid knowledge of distributed systems, algorithms and data structures. During these years, developed expertise to create software with high levels of quality, security and availability.</p>
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
@@ -39,6 +35,70 @@
 
       </header>
 
+      {% if site.resume_section_skills %}
+      <!-- begin Skills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Skills</h2>
+        </header>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Java</h4>
+          <p class="resume-item-copy">Core Java, Java EE - EJB, JPA / Hibernate, JMS, JAX-RS, JAX-WS, AspectJ</p>
+          <p class="resume-item-copy">Multi-Threading and Concurrency, Sockets, Regular Expressions</p>
+          <p class="resume-item-copy">Search engine development – Lucene, Elasticsearch</p>
+          <p class="resume-item-copy">Template Engines – Velocity, Freemarker</p>
+          <p class="resume-item-copy">Test Automation / Test-Driven Development - JUnit, PowerMock, Selenium, XMLUnit, JaCoCo</p>
+          <p class="resume-item-copy">Web Crawlers using Crawler4j, Jsoup and lexical analysis/parsers with Antlr</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Web Technologies</h4>
+          <p class="resume-item-copy">HTML, CSS, JavaScript, AngularJS, jQuery</p>
+          <p class="resume-item-copy">Servlets, JSP, JSF, Struts</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Application Integration</h4>
+          <p class="resume-item-copy">SOAP, WebServices, REST</p>
+          <p class="resume-item-copy">XML, JSON, XPath, XSLT</p>
+          <p class="resume-item-copy">STOMP, ActiveMQ, Camel</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">IDE, Tools and Continuous Integration</h4>
+          <p class="resume-item-copy">Eclipse IDE, NetBeans</p>
+          <p class="resume-item-copy">Git, Subversion</p>
+          <p class="resume-item-copy">Apache Ant, Apache Maven</p>
+          <p class="resume-item-copy">Jenkins, Hudson, SonarQube, Nexus</p>
+          <p class="resume-item-copy">JIRA, Confluence, Trello</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Programming Languages</h4>
+          <p class="resume-item-copy">Advanced: Bash, Groovy, SQL, Adobe Flex / ActionScript, Progress OpenEdge</p>
+          <p class="resume-item-copy">Intermediate: Python, R, Scala, Ruby on Rails, PHP, Delphi</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Miscellaneous</h4>
+          <p class="resume-item-copy">Agile Methodology, Scrum experience</p>
+          <p class="resume-item-copy">Application Servers: JBoss, WildFly, Glassfish</p>
+          <p class="resume-item-copy">Operational Systems: Mac OS X / Unix-based and Windows</p>
+          <p class="resume-item-copy">Database: Oracle, MySQL, SQL Server, Progress, Couchbase, MongoDB</p>
+          <p class="resume-item-copy">Cloud Services: AWS: EC2, S3, Glacier, Route 53 – CloudFlare – DigitalOcean</p>
+          <p class="resume-item-copy">Application Security, Penetration Testing, Authentication Flows, Vulnerabilities, Cryptography</p>
+          <p class="resume-item-copy">Reporting: BIRT, iReport</p>
+          <p class="resume-item-copy">Internet of Things Applications, RFID, Wearables</p>
+        </div>
+
+      </section>
+      <!-- end Skills -->
+      {% endif %}
+
+
+
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
@@ -47,56 +107,41 @@
           <h2>Experience</h2>
         </header>
 
-        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Springfield Nuclear Power Plant</h3>
-          <h4 class="resume-item-details" itemprop="description">Safety Inspector &bull; Nov, 1980 &mdash; Present</h4>
-          <p class="resume-item-copy">Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points:</p>
+          <h3 class="resume-item-title" itemprop="name">TOTVS S.A.</h3>
+          <h4 class="resume-item-details" itemprop="description">Senior Research &amp; Development Engineer &bull; Mar, 2009 &mdash; Present - Joinville, Brazil</h4>
           <ul class="resume-item-list">
-            <li>Ate lots of donuts</li>
-            <li>Fell asleep rarely</li>
-            <li>Left promptly at end of day (sometimes earlier)</li>
+            <li>Worked in an Architecture role in the development of enterprise software with Java EE, Adobe Flex, Progress OpenEdge and web front-end technologies.</li>
+            <li>Principal architect in several integration projects that required real-time performance and high availability.</li>
+            <li>Created internal tools that improved productivity, development process and software quality. It includes source code and schema search engine including domain-specific rules, source code rules-checker and automation in the build/update pipeline.</li>
+            <li>Technical responsible for CEISUPPLY - Supply Chain Excellence & Innovation Center - which the research & development projects include RFID, Google Glass and mobile solutions.</li>
           </ul>
-          <p class="resume-item-copy">If you're going to copy paste markup, or edit it, just be sure to keep the appropriate classnames on your new elements for styling purposes.</p>
+          <!--p class="resume-item-copy">Simple Paragraph</p-->
+        </div>
 
-        </div><!-- end of resume-item -->
-
-        <!-- another resume item -->
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Sir Putt-A-Lot's Merrie Olde Fun Centre</h3>
-          <h4 class="resume-item-details" itemprop="description">Windmill Crank Operator &bull; Jun, 1978 &mdash; Sept, 1979</h4>
-          <p class="resume-item-copy">If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.</p>
+          <h3 class="resume-item-title" itemprop="name">Intelig&ecirc;ncia Sistemas</h3>
+          <h4 class="resume-item-details" itemprop="description">Java Developer &bull; May, 2008 &mdash; Mar, 2009 - Joinville, Brazil</h4>
+          <ul class="resume-item-list">
+            <li>Participated in development projects in various areas, from small business management, commercial automation, payment management and payment orders generation.</li>
+            <li>Software for electronic medical records to Departments of Health of Brazil.</li>
+          </ul>
 
-        </div><!-- end of resume-item -->
+        </div>
 
-        <!-- by now you're getting the picture... -->
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Simpson Lazer Tag</h3>
-          <h4 class="resume-item-details" itemprop="description">Front Desk Attendant &bull; Jun, 1975 &mdash; May, 1978</h4>
-          <p class="resume-item-copy">Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.</p>
+          <h3 class="resume-item-title" itemprop="name">Premium Tecnologia</h3>
+          <h4 class="resume-item-details" itemprop="description">Software Developer &bull; Feb, 2008 &mdash; Sept, 2008 - Joinville, Brazil</h4>
+          <ul class="resume-item-list">
+            <li>Software development for election campaign and home automation (control electronics via Web and Mobile).</li>
+          </ul>
 
-        </div><!-- end of resume-item -->
+        </div>
+
+
 
       </section>
       <!-- end Experience -->
-      {% endif %}
-
-      {% if site.resume_section_education %}
-      <!-- begin Education -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Education</h2>
-        </header>
-
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">Springfield College</h3>
-          <h4 class="resume-item-details" itemprop="description">Associates Degree, Business Management &bull; 1984 &mdash; 1986</h4>
-          <p class="resume-item-copy">If you had any meaningful roles at college, feel free to write about them here.</p>
-        </div>
-
-      </section>
-      <!-- end Education -->
       {% endif %}
 
       {% if site.resume_section_projects %}
@@ -123,32 +168,38 @@
       <!-- end Projects -->
       {% endif %}
 
-      {% if site.resume_section_skills %}
-      <!-- begin Skills -->
+      {% if site.resume_section_education %}
+      <!-- begin Education -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>Education and Certification</h2>
         </header>
 
-        <div class="resume-item">
-          <h4 class="resume-item-details">Donut design</h4>
-          <p class="resume-item-copy">Sprinkle art, icing design, eclair management, taste testing, donut/coffee pairing research</p>
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">IST/SOCIESC – Sociedade Educacional de Santa Catarina</h3>
+          <h4 class="resume-item-details" itemprop="description">Technologist of Internet Systems &bull; 2010 &mdash; </h4>
         </div>
 
-        <div class="resume-item">
-          <h4 class="resume-item-details">Craft beer brewing</h4>
-          <p class="resume-item-copy">Hops inspection, brew testing, distribution management, bottle label design, festival and event management</p>
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">Oracle Certified Expert Java EE 6 Enterprise JavaBeans Developer</h3>
+          <h4 class="resume-item-details" itemprop="description">Oracle Corporation &bull; May, 2015</h4>
         </div>
 
-        <div class="resume-item">
-          <h4 class="resume-item-details">Family leadership</h4>
-          <p class="resume-item-copy">Bread winning, conflict resolution, couch inspection, TV longevity testing</p>
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">Oracle Certified Expert Java EE 6 Web Component Developer</h3>
+          <h4 class="resume-item-details" itemprop="description">Oracle Corporation &bull; Mar, 2014</h4>
+        </div>
+
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">Oracle Certified Professional Java Programmer (Java 6)</h3>
+          <h4 class="resume-item-details" itemprop="description">Oracle Corporation &bull; Apr, 2011</h4>
         </div>
 
       </section>
-      <!-- end Skills -->
+      <!-- end Education -->
       {% endif %}
+
 
       {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
@@ -194,12 +245,6 @@
           <p class="resume-item-copy">Organized fund drives and participated in fundraising events for the benefit of families in third world countries without proper access to malt beverages.</p>
         </div>
 
-        <div class="resume-item">
-          <h3 class="resume-item-title">Springfield Nuclear Workers Labor Union</h3>
-          <h4 class="resume-item-details">Member in Good Standin &bull; 1994 &mdash; Present</h4>
-          <p class="resume-item-copy">Founding member of the local nuclear workers labor union.</p>
-        </div>
-
       </section>
       <!-- end Associations -->
       {% endif %}
@@ -223,10 +268,11 @@
       <!-- end Links -->
       {% endif %}
 
+      <!-- thanks @jglovier, changing footer // based on https://github.com/jglovier/resume-template -->
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line">Like what you're seeing? Then <a href="mailto:{{ site.resume_contact_email }}" itemprop="email">contact me</a>.</p>
       </footer>
+
 
     </div>
 
