@@ -29,8 +29,8 @@ resume_section_education:       true
 resume_section_projects:        false
 resume_section_skills:          true
 resume_section_recognition:     false
-resume_section_links:           true
 resume_section_associations:    false
+resume_section_links:           false
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
