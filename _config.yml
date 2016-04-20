@@ -3,6 +3,7 @@ title: "Bruno Candido Volpato da Cunha - Resume"
 description: "Bruno's resume and contact information."
 
 # Build settings
+encoding: UTF-8
 markdown: kramdown
 sass:
   sass_dir: _sass
