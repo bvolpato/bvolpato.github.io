@@ -1,4 +1,4 @@
-# Bruno Candido Volpato da Cunha Resume
+# Bruno Volpato Resume
 
 :page_facing_up::briefcase: Bruno's resume.
 
