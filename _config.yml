@@ -1,5 +1,5 @@
 # Site settings
-title: "Bruno Candido Volpato da Cunha - Resume"
+title: "Bruno Volpato - Resume"
 description: "Bruno's resume and contact information."
 
 # Build settings
@@ -11,7 +11,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "false"
-resume_name:                    "Bruno Candido Volpato da Cunha"
+resume_name:                    "Bruno Volpato"
 resume_title:                   "Software Engineer"
 resume_contact_email:
   "brunocvcunha@gmail.com"
