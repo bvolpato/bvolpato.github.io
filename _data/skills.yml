@@ -1,0 +1,20 @@
+- skill: Java
+  description: Spring, Jersey, Dropwizard, EJB, JPA, JAX-RS, AspectJ, Tika, Rhino, Jackson, Fastjson, JVM Tuning, GC Profiling, Velocity, Maven
+
+- skill: Dataflow
+  description: Elasticsearch, Couchbase, BigQuery, SQL, Hive, Presto, MySQL, Oracle, Redis, Progress
+
+- skill: Cloud
+  description: Docker, Cloudflare, Packer, Terraform, Jenkins, Kibana, Prometheus, Grafana, Google Cloud Platform (Storage, Dataflow, BigQuery, Compute), AWS (RDS, EC2, S3, Glacier, Route 53)
+
+- skill: Processing
+  description: Apache Beam, Nats, Google Pubsub, Apache Camel, REST, SOAP, ActiveMQ
+
+- skill: Languages
+  description: Java, Python, Go, JavaScript, Groovy, Shell Script, Scala, Flex/ActionScript, PHP
+
+- skill: Web
+  description: HTML, CSS, Node.js, Angular, JsonPath, XML, Markdown
+
+- skill: Miscellaneous and Interests
+  description: Eclipse IDE, Git, Machine Learning, Blockchain, Cryptography, TDD, Regular Expressions, Application Security, Web Crawlers

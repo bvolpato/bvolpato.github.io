@@ -1,0 +1,18 @@
+# Jobs
+# VP of Global Communications
+- company: TOTVS Labs
+  position: Senior Backend Engineer
+  duration: Sept, 2015 &mdash; Present
+  summary: <p>Primarily focused on a Big Data Platform, developing a data access framework and different components for a high-volume and scalable data pipeline, including data onboarding, transformation, validation, enrichment, and distribution. Leveraged technologies such as NoSQL databases, search engines and streaming techniques to feed consumption engines that use Machine Learning to provide insights and intelligence to customers.</p><p>Improvement and optimization of the Elasticsearch search engine (documents, indices, infrastructure, and queries) to provide full-text search on a multi-terabyte cluster with a good performance and effective cost. Planned and worked on two major migrations with zero down-time, such as Elasticsearch 2 to 5 and Elasticsearch 5 to 7.</p><p>Designed and developed a solution to scale data ingestion and transformation, making it 20 times faster while reducing costs and making it deterministic and fully reproducible.</p><p>Created a structure to provide reliable real-time feedback for users through streaming and WebSockets, even though events were fed by several distinct microservices with elastic scaling.</p><p>Increased application performance through JVM and GC tuning techniques, and extensive application profiling.</p><p><b>Key technologies - Java, Elasticsearch, Couchbase, Dropwizard, Docker, Dataflow, Nats, Camel, Google Cloud, Pubsub</b></p>
+
+# Director of Digital Stratgy
+- company: TOTVS SA
+  position: Senior Research and Development Engineer
+  duration:  Mar, 2009 &mdash; Aug, 2015
+  summary: <p>Primarily worked on a big ERP software, working on several parts of the product’s foundation, including integration and communication layer that powered the biggest manufacturing companies in Latin America.</p><p>Architect in several projects mostly focused on application integration pipelines,  that required real-time performance and high availability.</p><p>Provided internal tools that improved productivity, development process and software quality, such as search engines for source code and database schemas and white box validators.</p><p><b>Key technologies - Java, Elasticsearch, Lucene, Spring, EJB, SQL, Oracle, Progress, Flex</b></p>
+
+# Communications Coordinator
+- company: Inteligencia Sistemas
+  position: Java Developer
+  duration:   Apr, 2008  &mdash; Mar, 2009
+  summary: <p>Developed software in different areas and markets, from small business management, commercial automation, billing management, payment orders generation and software for electronic medical records.</p><p>Developed a Customer Relationship Management software for elections and political parties, allowing productivity improvements of political campaigns through efficient software and marketing tools.</p><p><b>Key technologies - Java, Hibernate, Struts, MySQL, SQL, PHP</b></p>

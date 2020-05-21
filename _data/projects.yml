@@ -1,0 +1,20 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+- project: Lightning Social
+  role: Primary Developer
+  duration: 2017 &mdash; Present
+  # url: "#"
+  description: Crawling social media and news sources to analyze mentions of crypto and stock tickers, with an algorithm to analyze relationships of mentions and prices, as well as identify event spikes in real-time providing a fast way to react.
+
+- project: Taskerbox
+  role: Primary Developer
+  duration: 2014 &mdash; Present
+  url: "https://github.com/brunocvcunha/taskerbox"
+  description: Lightweight automation engine, providing several components to automate daily tasks, such as events based on message queues, social media, crawlers, product/flight price finder, and triggering actions such as social media, email, SMS, Slack.
+
+- project: Digesteroids
+  role: Primary Developer
+  duration: 2016 &mdash; Present
+  url: "https://github.com/brunocvcunha/digesteroids"
+  description: Library to convert data from different formats and structures to your Java POJOs in a natural way with transformation steps, supporting maps, JSON, XML, HTML.
