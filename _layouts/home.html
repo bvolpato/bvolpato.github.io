@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
+
+    <div class="wrapper" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="telephone" content="{{ site.resume_contact_telephone }}"/>
+      <meta itemprop="address" content="{{ site.resume_contact_address }}"/>
+
+      <header class="page-header">
+
+        {% if site.resume_avatar == 'true' %}
+        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        {% endif %}
+
+        <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
+
+        {% if site.display_header_contact_info == 'true' %}
+        <div class="header-contact-info">
+          <p>{{ site.resume_header_contact_info }}</p>
+        </div>
+        {% endif %}
+
+        <div class="title-bar no-print">
+          {% include icon-links.html class="icon-links-center" labels="true" %}
+        </div>
+      </header>
+
+    </div>
+
+  </body>
+
+</html>

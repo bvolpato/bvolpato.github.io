@@ -9,7 +9,7 @@
 
   h2 {
     @include sans;
-    font-weight: 900;
+    font-weight: 750;
     font-size: 1.75rem;
     letter-spacing: -.05rem;
     margin: 0;
@@ -67,11 +67,23 @@
         margin: 0;
       }
     }
+
   }
 
   .executive-summary {
     @include media_larger_than_mobile { font-size: 1.125rem; }
   }
+}
+
+.navbar-link {
+  @include sans;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  letter-spacing: -.05rem;
+  text-align: center;
+  margin: 0 0 .5rem;
+  color: #333;
 }
 
 .icon-links {
@@ -99,7 +111,7 @@
 
     &:hover .icon path {
       fill: #333;
-      @include transition(all .2s ease);
+      @include transition(all .5s ease);
     }
   }
 
@@ -107,6 +119,59 @@
     height: 28px;
   }
 }
+
+.icon-links-center {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  top: 4px;
+  text-align: center;
+  border-top: 2px solid #c7c7c7;
+  padding-top: .4rem;
+  
+  @include media_larger_than_mobile {
+    float: center;
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .icon-link-item {
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  .icon-label {
+    padding-left: 2px;
+  }
+
+  .icon-link { 
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #777;
+    font-size: 1.20rem;
+    font-weight: 500;
+    padding-left: 10px;
+
+
+    .icon path {
+      fill: #777;
+    }
+    &:hover {
+      color: #333;
+      .icon path {
+        fill: #333;
+      }
+    }
+
+  }
+
+  .icon {
+    height: 28px;
+  }
+}
+
 
 .contact-button {
   @include border-radius(3px);
@@ -120,11 +185,12 @@
   @include sans_light;
   color: #333;
   line-height: 55px;
-  @include transition(all .2s ease);
+  @include transition(all .5s ease);
 
   &:hover {
     background-color: #333;
     color: #fff;
+    @include transition(all .5s ease);
   }
 
   &.not-looking { width: 400px; }

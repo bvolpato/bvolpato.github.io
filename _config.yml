@@ -43,19 +43,6 @@ resume_section_links:           false
 resume_section_associations:    false
 resume_section_interests:       false
 
-# Resume social links
-# uncomment the options you wish to display, and add your own URL
-resume_social_links:
-  resume_github_url:            "https://github.com/bvolpato"
-  resume_twitter_url:           "http://twitter.com/bruflow"
-  # resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/bvolpato"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "https://brunovolpato.com"
-  # resume_medium_url:            "https://medium.com/@brunocvcunha"
-resume_print_social_links:      true
-
 # Design settings
 resume_theme:                   default
 
