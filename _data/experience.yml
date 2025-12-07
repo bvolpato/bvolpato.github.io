@@ -1,6 +1,6 @@
 # Jobs
 - company: Datadog
-  position: Senior Software Engineer
+  position: Staff Software Engineer
   duration: Jan, 2024 &mdash; current 
   location: New York, NY
   summary: "<p><strong>Technical Leadership</strong>: Contributed to the Query Execution team (involved in Query Planning and Connectors) to deliver a unified query experience across dozens of use cases at Datadog.</p><p><strong>Core Contributor</strong>: Enhanced the product in a wide range of areas: grammar/parsers, cost-based optimization and execution - significantly improving the platform’s robustness and correctness guarantees.</p><p><strong>Reliability Focus</strong>: Managed on-call and operational efforts, standardizing deployments and establishing quality standards with end-to-end tests and golden queries, enhancing operational confidence and agility.</p><p><strong>Key Technologies</strong>:  Golang, Java, Trino, DataFusion, Apache Calcite, Kubernetes, Postgres, Substrait, Arrow, gRPC</p>"

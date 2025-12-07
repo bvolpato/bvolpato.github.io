@@ -11,7 +11,7 @@ sass:
 resume_theme: default
 resume_avatar: "true"
 resume_name: "Bruno Volpato"
-resume_title: "Senior Software Engineer / Tech Lead"
+resume_title: "Staff Software Engineer"
 resume_contact_email: "me@brunovolpato.com"
 resume_contact_telephone: "646-988-1413"
 resume_contact_address: "New York, NY"
@@ -28,7 +28,7 @@ resume_section_experience: true
 resume_section_education: true
 resume_section_projects: false
 resume_section_skills: true
-resume_section_recognition: true
+resume_section_recognition: false
 resume_section_links: false
 resume_section_associations: false
 resume_section_interests: false
