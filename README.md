@@ -2,7 +2,7 @@
 
 :page_facing_up::briefcase: Bruno's resume.
 
-Please check the resume [here](https://brunocvcunha.github.io).
+Please check the resume [here](https://bvolpato.github.io).
 
 
 # Local Development
