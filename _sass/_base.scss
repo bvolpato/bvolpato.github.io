@@ -12,9 +12,9 @@ html {
 
 body{
   @include serif;
-  color: $text_color;
-  font-size: 16px;
-  line-height: 1.5;
+  color: #2e2e2e;
+  font-size: 17px;
+  line-height: 1.6;
 }
 
 .wrapper:before,
