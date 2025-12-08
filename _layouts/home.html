@@ -16,6 +16,7 @@
         {% endif %}
 
         <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
+        <h2 style="text-align: center; font-weight: 300; font-size: 1.5rem; margin: 0.5rem 0;">{{ site.resume_title }}</h2>
 
         {% if site.display_header_contact_info == 'true' %}
         <div class="header-contact-info">
@@ -27,6 +28,20 @@
           {% include icon-links.html class="icon-links-center" labels="true" %}
         </div>
       </header>
+
+      <section class="content-section">
+        <header class="section-header" style="border-top: none; border-bottom: 1px solid #c7c7c7; margin-bottom: 0.5rem;">
+          <h2>Now</h2>
+        </header>
+
+        <div class="resume-item">
+          <p style="font-style: italic; margin-top: 0; margin-bottom: 1rem; font-size: 0.9rem; color: #666;">Last Updated: {{ site.time | date: "%B, %Y" }}</p>
+          <div class="resume-item-copy">
+            {% capture now_content %}{% include now.md %}{% endcapture %}
+            {{ now_content | markdownify }}
+          </div>
+        </div>
+      </section>
 
     </div>
 
