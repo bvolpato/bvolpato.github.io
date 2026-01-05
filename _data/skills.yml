@@ -4,12 +4,12 @@
 - skill: Data
   description: SQL, Postgres, Trino, Data Lakehouse (Iceberg), Apache Calcite, Substrait, BigQuery, Spanner, Elasticsearch, Redis, Couchbase, Hive, Prometheus, Grafana
 
-- skill: Processing
+- skill: Data Processing
   description: Apache Beam/Dataflow, DataFusion, Kafka, Spark, Flink, Pub/Sub, Camel, ActiveMQ
 
 - skill: Cloud
   description: Kubernetes, Docker, Packer, Terraform, Jenkins, Kibana, Prometheus, Datadog, Grafana, Google Cloud Platform (Storage, Dataflow, BigQuery, Compute, Stackdriver)
 
-- skill: Java / JVM ecosystem
+- skill: Frameworks & Libraries
   description: Spring, Jersey, Dropwizard, JPA, JAX-RS, AspectJ, Nashorn, Jackson, Fastjson, JVM Tuning, GC Profiling, Velocity, Maven
 

@@ -34,7 +34,7 @@ resume_header_contact_info: "New York, NY • 646-988-1413 • me@brunovolpato.c
 display_header_contact_info: "false"
 
 resume_header_intro: "<p>Results-driven software engineer with over 15 years of professional experience in designing and implementing high-performance distributed systems and data platforms. Proven leadership in building and guiding technical teams to deliver scalable, robust solutions for complex systems.</p>"
-resume_header_bottom: "<p><b>Specialties</b>:	Backend Engineering, Distributed Processing, Technical Leadership, Database Systems & Query Optimization, System/Data Platform Design, Search Engines, Messaging Protocols, Cloud Computing (Kubernetes/Docker), Application Profiling & Performance Tuning, Site Reliability Engineering</p>"
+resume_header_bottom: "<p><b>Specialties</b>: Backend Engineering, Data Processing, Technical Leadership, Database Systems & Query Optimization, System/Data Platform Design, Search Engines, Messaging Protocols, Cloud Computing, Application Profiling & Performance Tuning, Site Reliability Engineering</p>"
 resume_looking_for_work: "yes"
 
 # Decide which sections to use
