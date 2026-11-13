@@ -4,6 +4,8 @@ FROM ruby:3.3-slim
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     git \
+    libssl-dev \
+    pkg-config \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /srv/jekyll
